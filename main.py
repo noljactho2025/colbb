@@ -1,4 +1,4 @@
-let mySprite = sprites.create(img`
+mySprite = sprites.create(img("""
         . . . . . . . . . . . . . . . .
         . . . . . . . . . . . . . . . .
         . . . . . . . . . b 5 5 b . . .
@@ -15,4 +15,5 @@ let mySprite = sprites.create(img`
         . c d d d d d d 5 5 5 5 5 d b .
         . . c b d d d d d 5 5 5 b b . .
         . . . c c c c c c c c b b . . .
-        `, SpriteKind.Player)
+        """),
+    SpriteKind.player)
